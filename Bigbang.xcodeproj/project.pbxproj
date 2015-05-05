@@ -13,6 +13,11 @@
 		BCC1FA371AE515B70037AB9E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCC1FA361AE515B70037AB9E /* Images.xcassets */; };
 		BCC1FA3A1AE515B70037AB9E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCC1FA381AE515B70037AB9E /* LaunchScreen.xib */; };
 		BCC1FA461AE515B70037AB9E /* BigbangTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC1FA451AE515B70037AB9E /* BigbangTests.swift */; };
+		BCC1FA501AE5170B0037AB9E /* D-Lite.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BCC1FA4F1AE5170B0037AB9E /* D-Lite.jpg */; };
+		BCC1FA521AE5184D0037AB9E /* TOP.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BCC1FA511AE5184D0037AB9E /* TOP.jpg */; };
+		BCC1FA541AE519060037AB9E /* GD.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BCC1FA531AE519060037AB9E /* GD.jpg */; };
+		BCC1FA581AE51B580037AB9E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCC1FA571AE51B580037AB9E /* AVFoundation.framework */; };
+		BCC1FA8E1AE5348B0037AB9E /* dress.m4a in Resources */ = {isa = PBXBuildFile; fileRef = BCC1FA8D1AE5348B0037AB9E /* dress.m4a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +41,11 @@
 		BCC1FA3F1AE515B70037AB9E /* BigbangTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BigbangTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCC1FA441AE515B70037AB9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BCC1FA451AE515B70037AB9E /* BigbangTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigbangTests.swift; sourceTree = "<group>"; };
+		BCC1FA4F1AE5170B0037AB9E /* D-Lite.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "D-Lite.jpg"; path = "../../../D-Lite.jpg"; sourceTree = "<group>"; };
+		BCC1FA511AE5184D0037AB9E /* TOP.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = TOP.jpg; path = ../../../TOP.jpg; sourceTree = "<group>"; };
+		BCC1FA531AE519060037AB9E /* GD.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = GD.jpg; path = ../../../GD.jpg; sourceTree = "<group>"; };
+		BCC1FA571AE51B580037AB9E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		BCC1FA8D1AE5348B0037AB9E /* dress.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = dress.m4a; path = ../../../dress.m4a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCC1FA581AE51B580037AB9E /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +70,7 @@
 		BCC1FA211AE515B70037AB9E = {
 			isa = PBXGroup;
 			children = (
+				BCC1FA571AE51B580037AB9E /* AVFoundation.framework */,
 				BCC1FA2C1AE515B70037AB9E /* Bigbang */,
 				BCC1FA421AE515B70037AB9E /* BigbangTests */,
 				BCC1FA2B1AE515B70037AB9E /* Products */,
@@ -77,6 +89,7 @@
 		BCC1FA2C1AE515B70037AB9E /* Bigbang */ = {
 			isa = PBXGroup;
 			children = (
+				BCC1FA8D1AE5348B0037AB9E /* dress.m4a */,
 				BCC1FA2F1AE515B70037AB9E /* AppDelegate.swift */,
 				BCC1FA311AE515B70037AB9E /* ViewController.swift */,
 				BCC1FA331AE515B70037AB9E /* Main.storyboard */,
@@ -90,6 +103,9 @@
 		BCC1FA2D1AE515B70037AB9E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				BCC1FA531AE519060037AB9E /* GD.jpg */,
+				BCC1FA511AE5184D0037AB9E /* TOP.jpg */,
+				BCC1FA4F1AE5170B0037AB9E /* D-Lite.jpg */,
 				BCC1FA2E1AE515B70037AB9E /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -192,7 +208,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCC1FA541AE519060037AB9E /* GD.jpg in Resources */,
+				BCC1FA501AE5170B0037AB9E /* D-Lite.jpg in Resources */,
 				BCC1FA351AE515B70037AB9E /* Main.storyboard in Resources */,
+				BCC1FA8E1AE5348B0037AB9E /* dress.m4a in Resources */,
+				BCC1FA521AE5184D0037AB9E /* TOP.jpg in Resources */,
 				BCC1FA3A1AE515B70037AB9E /* LaunchScreen.xib in Resources */,
 				BCC1FA371AE515B70037AB9E /* Images.xcassets in Resources */,
 			);
@@ -409,6 +429,7 @@
 				BCC1FA4B1AE515B70037AB9E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BCC1FA4C1AE515B70037AB9E /* Build configuration list for PBXNativeTarget "BigbangTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +438,7 @@
 				BCC1FA4E1AE515B70037AB9E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
